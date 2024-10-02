@@ -1,0 +1,74 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+.solar-system {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.control-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.control-panel h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.control-panel input[type="range"] {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.planet-info {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.planet-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.planet-info p {
+  margin: 5px 0;
+}
+
+.planet-label {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
